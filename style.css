@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+    background: linear-gradient(#abb1b2, #30abc7);
+    display:flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;
+    border-radius: 20px;
+    margin-top:50px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.132);
+}
+.search{ 
+  display: flex;
+  gap:15px;
+  margin:50px;
+}
+.search input{
+  padding:15px;
+  width:15vw;
+  border-radius: 30px;
+  border: none;
+  color:black;
+}
+*{
+  font-family:lora;
+  color:white;
+}
+.search button{
+  width:50px;
+  height:50px;
+  border: none;
+  border-radius: 70px;
+}
+.weather h1{
+font-size:4rem; 
+margin-top:-10px;
+transition: 2s ease;
+}
+.weather h2{
+  margin-top:-40px;
+  font-size:2rem;
+  transition: 2s ease;
+}
+body{
+  background-color: rgb(31, 30, 30);
+}
+.details{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  margin:50px;
+  gap:50px;
+}
+.humidity,.wind{
+  margin:10px;
+  padding:2px;
+}
+.details p{
+  font-size:1rem;
+  margin:auto;
+}
+#percent,#speed{
+    text-align: left;
+    font-size:100%;
+  }
+.coln{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+}
+button:hover{
+  cursor: pointer;
+  background-color:rgba(0, 0, 0, 0.208);
+  border:2px solid rgba(0, 0, 0, 0.277);
+
+}
+input:focus{
+  outline:none;
+}
+.weather img{
+  transition: 2s ease;
+}
+.weather img:hover{
+  transform:rotateY(180deg);
+}
+.weather h1:hover,h2:hover{
+  transform: scale(1.5);
+  color:black;
+}
+@media (max-width:1182px){
+  .details{
+    display:inline-block;
+  }
+  .coln{
+    margin:20px;
+  }
+  .coln2{
+    margin:20px;
+  }
+}
+.coln2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  margin-left:30px;
+}
+.weather{
+  display:none;
+}
+.details{
+  display:none;
+}
+.error{
+  margin:-40px 0px 0px -190px;
+  padding:10px; 
+  display: none;
+  color:rgb(0, 0, 0);
+}
