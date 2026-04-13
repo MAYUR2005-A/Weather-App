@@ -6,7 +6,7 @@
     const response=await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apikey+ "&units=metric");
     const json=await response.json();
     console.log(json);
-  if(response.status=="404"){
+  if(response.status==404){
       document.querySelector(".error").style.display="block";
       document.querySelector(".weather").style.display="none";
       document.querySelector(".details").style.display="none";
