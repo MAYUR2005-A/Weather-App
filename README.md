@@ -5,9 +5,8 @@ It fetches real-time weather data and displays it with dynamic UI updates.
 
 ---
 
-## 🚀 Live Demo
-
-
+🌐 Project Output
+👉 Live Demo: 
 ---
 
 ## 🚀 Features
