@@ -5,8 +5,8 @@ It fetches real-time weather data and displays it with dynamic UI updates.
 
 ---
 
-🌐 Project Output
-👉 Live Demo: 
+🌐 Project Output <br>
+👉 Live Demo: https://mayur2005-a.github.io/Weather-App/
 ---
 
 ## 🚀 Features
